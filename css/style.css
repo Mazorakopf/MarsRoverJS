@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Marsianin';
+  src: url('../fonts/Marsianin.ttf');
+ }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/dark-gray-scratch-lines.png') repeat;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 50%;
+  height: 100%;
+  margin-top: 1.5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+.head {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.active {
+    background-color: #4083ef;
+}
+
+.start-page{
+  position: relative;
+  z-index: 0;
+}
+
+.playgraund{
+  width: 100%;
+  position: relative;
+  height: 80%;
+}
+
+.step-action-button {
+  z-index: 100;
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  margin-left: 26%;
+  margin-top: 3%;
+}
+
+.rotate-action-button {
+  z-index: 100;
+  width: 10%;
+  height: 5%;
+  margin-left: 26%;
+  position: absolute;
+  margin-top: 6%;
+}
+
+.reset-action-button{
+  z-index: 100;
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  margin-top: 34%;
+  margin-left: 63%;
+}
+
+.speed {
+  z-index: 100;
+  color: blue;
+  width: 30%;
+  height: 40px;
+  margin-left: 55%;
+}
+
+.position {
+  z-index:100;
+  color: blue;
+  width: 30%;
+  height: 40px;
+  top: 18%;
+  left: 68%;
+}
+
+.name{
+  z-index: 1;
+  font-size: 500%;
+  font-style: italic;
+  font-family: 'Marsianin';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.start-image{
+  z-index: 0;
+  width: 100%;
+  height: 670px;
+}
+
+.about-page{
+  width: 100%;
+  height: 480px;
+  padding-top: 8%;
+  padding-bottom: 14%;
+}
+
+p{
+  text-shadow: 3px 5px 6px #828ea3;
+  text-align: center;;
+  font: italic normal 20px/18px Arial;
+}
+
+.about-wrapper {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.to-mars-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 3px solid black;
+  box-shadow: 0 0 7px #666;
+  display:block;
+  margin:0 auto;
+}
+
+.rulles-page{
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+
+.rulles-text{
+  width: 70%;
+  height: 70%;
+  border: 6px dashed red;
+  border-radius: 30px;
+  background-color: rgba(249, 201, 27, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

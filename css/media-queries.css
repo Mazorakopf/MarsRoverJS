@@ -1,0 +1,29 @@
+@media only screen and (max-width: 670px){
+  p{
+    text-shadow: 3px 5px 6px #828ea3;
+    text-align: center;;
+    font: italic normal 15px/16px Arial;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .name{
+    font-size: 300%;
+  }
+  p{
+    text-shadow: 1px 3px 4px #828ea3;
+    text-align: center;
+    font: italic normal 14px/15px Arial;
+  }
+}
+
+@media only screen and (min-width: 994px){
+  .name{
+    font-size: 600%;
+  }
+  p{
+    text-shadow: 4px 6px 7px #828ea3;
+    text-align: center;
+    font: italic normal 25px/22px Arial;
+  }
+}
